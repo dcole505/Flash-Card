@@ -1,10 +1,25 @@
 $(document).ready(function(){
-  $("#card-one").click(function(){
+  $("#card-one").click(function() {
     $("#variables").toggleClass("hidden");
   });
-  $(".toggle").click(function(){
-    $("#function").addClass();
-    $("#function").removeClass();
-    $("#function").toggle();
+
+  $("#card-two").click(function(){
+    $("#function").toggleClass("hidden");
+  });
+
+  $("#card-three").click(function(){
+    $("#methods").toggleClass("hidden");
+  });
+
+  $("#card-four").click(function(){
+    $("#parameters").toggleClass("hidden");
+  });
+
+  $("#card-five").click(function(){
+    $("#return").toggleClass("hidden");
+  });
+
+  $("#card-six").click(function(){
+    $("#booleans").toggleClass("hidden");
   });
 });
