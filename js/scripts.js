@@ -1,0 +1,10 @@
+$(document).ready(function(){
+  $("#card-one").click(function(){
+    $("#variables").toggleClass("hidden");
+  });
+  $(".toggle").click(function(){
+    $("#function").addClass();
+    $("#function").removeClass();
+    $("#function").toggle();
+  });
+});
